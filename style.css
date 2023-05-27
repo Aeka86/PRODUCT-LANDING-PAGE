@@ -24,7 +24,7 @@ header {
 }
 
 img {
-  width: 400px;
+  width: 500px;
   max-width: 100%;
   padding-bottom: 40px;
 }
@@ -38,7 +38,7 @@ h3 {
 }
 .content-wrap {
   max-width: 100%;
-    padding-right: 30px;
+  padding-right: 30px;
   text-align: center;
 }
 .design-style,
@@ -137,36 +137,43 @@ h3 {
 .submit-button:hover {
   background-color: #2e6171;
 }
-.icon {
-  width: 60px;
-}
+
 /*------------ Pricing Styles --------*/
-.price {
-  border: 1px solid #2e6171;
-  max-width: 100%;
-  margin: 10px 10px;
-  display: flex;
-  text-align: center;
-  justify-content: space-between;
-}
-
-.price-heading {
-  padding: 60px 40px;
-  margin: 10px 10px;
-}
-.content-wrap > ol {
-  list-style: none;
-  align-items: center;
-  line-height: 1.8;
-  padding-left: 0;
-  margin: 10px 10px;
-}
-
-/*------------ Pricing 1 Styles --------*/
 #pricing {
-  display: grid;
-  margin: 10px 10px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  justify-content: space-evenly;
+  margin-top: 60px;
+  margin-bottom: 90px;
 }
+
+#pricing ol {
+  list-style: none;
+}
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: calc(80%/3);
+  border: 1px solid black;
+  border-radius: 3px;
+  margin: 20px;
+}
+#pricing p {
+padding: 0 60px;
+}
+.level {
+  background-color: #ddd;
+  font-weight: 700;
+  width: 100%;
+  padding: 15px 0;
+}
+ol > li{
+  text-align: center;
+}
+/*------------ Pricing 1 Styles --------*/
 
 /*------------ Pricing 2 Styles --------*/
 
