@@ -36,7 +36,8 @@ h3 {
 }
 .content-wrap {
   max-width: 100%;
-  margin: 10px 30px;
+  /* margin: 10px 30px; */
+  padding-right: 30px;
   text-align: center;
 }
 .design-style,
@@ -118,13 +119,17 @@ h3 {
   }
 }
 /*------------ How it works Styles --------*/
+
 .how-it-works {
   display: grid;
-  grid-template-columns: repeat(2, 300px);
-  justify-content: space-around;
-  padding: auto 60px;
-  overflow-x: hidden;
-  width: 100%;
+  grid-template-columns: repeat(1, 300px);
+  justify-content: center;
+  /* padding: auto 60px; */
+  max-width: 100%;
+  
+}
+.how-work {
+  
 }
 .submit-button {
   color: #ffffff;
