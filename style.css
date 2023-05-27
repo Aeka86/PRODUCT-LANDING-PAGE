@@ -24,20 +24,21 @@ header {
 }
 
 img {
-  width: 300px;
+  width: 400px;
   max-width: 100%;
+  padding-bottom: 40px;
 }
 h1 {
   font-size: 40px;
   line-height: 1;
+  text-align: center;
 }
 h3 {
   font-size: 20px;
 }
 .content-wrap {
   max-width: 100%;
-  /* margin: 10px 30px; */
-  padding-right: 30px;
+    padding-right: 30px;
   text-align: center;
 }
 .design-style,
@@ -122,14 +123,9 @@ h3 {
 
 .how-it-works {
   display: grid;
-  grid-template-columns: repeat(1, 300px);
+  grid-template-columns: repeat(1, 500px);
   justify-content: center;
-  /* padding: auto 60px; */
   max-width: 100%;
-  
-}
-.how-work {
-  
 }
 .submit-button {
   color: #ffffff;
@@ -141,7 +137,6 @@ h3 {
 .submit-button:hover {
   background-color: #2e6171;
 }
-
 .icon {
   width: 60px;
 }
