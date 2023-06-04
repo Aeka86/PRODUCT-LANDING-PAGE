@@ -27,6 +27,7 @@ img {
   width: 500px;
   max-width: 100%;
   padding-bottom: 40px;
+ justify-content: center;
 }
 h1 {
   font-size: 40px;
@@ -96,6 +97,7 @@ h3 {
   .how-it-works > iframe {
     max-width: 560px;
     width: 100%;
+    
   }
   .content-wrap {
     display: flex;
@@ -192,15 +194,12 @@ ol > li{
 .design-style {
   margin: 35px 25px;
 padding: 0 20%;
-  height: 200px;
+  height: 350px;
   width: 100%;
-}
-.design-room {
   line-height: 1.8;
+  font-size: 18px;
 }
-.design-style {
-  line-height: 1.8;
-}
+
 
 /*------------ Contact --------*/
 #sub {
@@ -228,4 +227,13 @@ footer .list {
   list-style-type: none;
   justify-content: space-around;
   display: flex;
+  margin: 5% 25%;
+}
+
+.how-it-works > iframe {
+  margin-top: 40px;
+}
+
+.vlog {
+  text-align: center;
 }
