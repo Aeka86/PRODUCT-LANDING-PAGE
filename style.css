@@ -102,9 +102,7 @@ h3 {
     justify-content: space-between;
     border: none;
   }
-  #sub {
-    margin-top: 120px;
-  }
+  
   .header-img {
     margin-top: 15%;
     display: none;
@@ -133,6 +131,7 @@ h3 {
   padding: 10px;
   border-radius: 6px;
   border-style: none;
+ width: 20%;
 }
 .submit-button:hover {
   background-color: #2e6171;
@@ -171,9 +170,22 @@ padding: 0 60px;
   padding: 15px 0;
 }
 ol > li{
-  text-align: center;
+ margin-right: 25px;
+}
+ 
+.btn {
+  color: #ffffff;
+  background-color: #845a6d;
+  padding: 10px;
+  border-radius: 6px;
+  border-style: none;
+  margin: 15px 0;
+  width: 30%;
 }
 
+.btn:hover {
+  background-color: #2e6171;
+}
 /*------------ Design --------*/
 .design-room,
 .design-style {
