@@ -76,6 +76,7 @@ h3 {
 .header-img {
   width: 100%;
 }
+
 @media (max-width: 800px) {
   .menu,
   .logo {
@@ -189,8 +190,10 @@ ol > li{
 /*------------ Design --------*/
 .design-room,
 .design-style {
+  margin: 35px 25px;
+padding: 0 20%;
   height: 200px;
-  width: 70%;
+  width: 100%;
 }
 .design-room {
   line-height: 1.8;
